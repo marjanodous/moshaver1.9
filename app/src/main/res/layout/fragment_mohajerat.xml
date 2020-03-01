@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrgMohajerat">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        android:paddingBottom="10dp"
+        android:textDirection="rtl">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/mohajerat"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mohajerat1"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_margin="5dp"
+        android:textSize="16sp"
+        android:textAlignment="textStart"
+        android:lineSpacingExtra="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/mohajerat2"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorSecondaryText"
+        android:lineSpacingExtra="10dp"
+        android:textSize="16sp" />
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+
+</FrameLayout>

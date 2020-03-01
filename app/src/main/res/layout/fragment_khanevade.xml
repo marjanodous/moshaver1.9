@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrgKhanevade">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        android:paddingBottom="10dp"
+        android:textDirection="rtl">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/khanevade"
+        android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/khanevade1"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorSecondaryText"
+            android:lineSpacingExtra="10dp"
+            android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/khanevade2"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_margin="5dp"
+        android:lineSpacingExtra="10dp"
+        android:textSize="16sp"
+        android:textAlignment="textStart"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/khanevade3"
+        android:textAlignment="textStart"
+        android:lineSpacingExtra="10dp"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/khanevade4"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textAlignment="textStart"
+            android:lineSpacingExtra="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/khanevade5"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorSecondaryText"
+            android:lineSpacingExtra="10dp"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/khanevade6"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textAlignment="textStart"
+            android:lineSpacingExtra="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/khanevade7"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorSecondaryText"
+            android:lineSpacingExtra="10dp"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/khanevade8"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textAlignment="textStart"
+            android:lineSpacingExtra="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/khanevade9"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorSecondaryText"
+            android:lineSpacingExtra="10dp"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/khanevade10"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textAlignment="textStart"
+            android:lineSpacingExtra="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/khanevade11"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorSecondaryText"
+            android:lineSpacingExtra="10dp"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/khanevade12"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textAlignment="textStart"
+            android:lineSpacingExtra="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/khanevade13"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorSecondaryText"
+            android:lineSpacingExtra="10dp"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/khanevade14"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:lineSpacingExtra="10dp"
+            android:textAlignment="textStart"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/khanevade15"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorSecondaryText"
+            android:lineSpacingExtra="10dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

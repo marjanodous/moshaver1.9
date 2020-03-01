@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="1dp"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:padding="5dp"
+    android:background="?attr/selectableItemBackground">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/item_layout_soal"
+        android:background="@drawable/shape_border_bottom">
+        <ImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:elevation="2dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_help"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="soal"
+            android:layout_margin="5dp"
+            android:textSize="14sp"
+            android:lineSpacingExtra="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorSecondaryText"
+            android:layout_toLeftOf="@id/img_avatar"
+            android:layout_toRightOf="@id/img_play"
+            android:layoutDirection="rtl"
+            android:id="@+id/txt_soal"/>
+        <ImageView
+            android:id="@+id/img_play"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:elevation="2dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/ic_play"/>
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

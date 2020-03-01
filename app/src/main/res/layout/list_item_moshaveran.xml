@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardmoshaver"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="1dp"
+    android:padding="5dp"
+    android:layoutDirection="rtl"
+    android:background="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/item_layout"
+        android:textDirection="rtl"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+           android:background="@drawable/shape_border_logo"
+            android:id="@+id/img_moshaver"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:layout_toLeftOf="@id/img_moshaver"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:id="@+id/name_moshaver"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_above="@id/paye_hoquqi_moshaver_list"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="paye_hoquqi"
+            android:layout_toLeftOf="@id/img_moshaver"
+            android:layout_margin="16dp"
+            android:textColor="@color/colorSecondaryText"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/paye_hoquqi_moshaver_list"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
